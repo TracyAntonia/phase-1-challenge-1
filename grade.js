@@ -16,7 +16,12 @@ function inputStudentMarks(){
     }else if (marks <40 && marks >= 0) {
         alert("You scored a E.")
 
+    }else if (marks > 100){
+        alert("INVALID!! Marks cannot be greater than 100!")
+    }
+    else{
+        alert("INVALID!! Marks cannot be less than 0!");
     }
 }
 
-inputStudentMarks()
+inputStudentMarks(100)
