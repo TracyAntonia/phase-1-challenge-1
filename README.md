@@ -1,17 +1,16 @@
 # phase-1-challenge-1
-# Description
-- This is an input promt for marks input and grades output.
+## Description
+- This is an input promt for marks input and grades output. It also works with speed and salary.
 
-# Technology used
- Javascript
- Html
- Css
+## Requirements
+- You need the following requirements:
+1. A computer that has Chrome installed.
+2. Visual Studio Code installed or any text editor of your choice.
+3. Node version 10 or higher installed.
 
-# Installation
-- The installation process requires a good computer and some simple steps,
-
-## OPTION ONE
-1) Open the terminal on your computer (ctrl + shift + t)
+## Installation
+### OPTION ONE
+1) Open the terminal on your computer (ctrl + shift + t).
 2) Clone the repository:
             
             use - git clone git@github.com:TracyAntonia/phase-1-challenge-1.git
@@ -23,22 +22,14 @@
 4) Open it using VS code `Visual Studio Code`.
 
             use  - code .
+5) Once you open your VS code, on your left-hand side on the explorer you will find the html, css and javascript. 
+6) And then open the page using the live server.
 
-## OPTION TWO
+### OPTION TWO
 1) You can fork this repository in your own account by clicking on `Fork` on this page.
 2) Start the process in `OPTION ONE` above.
 
-
-# Application Run
-1) Install npm dependancies on your terminal
-            
-            use - npm install
-2) To test functionality 
-
-            use - npm test            
-
-
-# Student Grade Generator 
+## Student Grade Generator 
 This programs checks a student's marks and returns the grade. THe input should be between 0 - 100 marks.
 The output is gradede as follows:
         A = 80 to 100
@@ -67,8 +58,8 @@ Example, if the speed is 80, it should print: “Points: 2”. If the driver get
 
 # Net Salary Calculator
 - This program has a major task that is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. It calculates the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary. 
-- I used KRA, NHIF, and NSSF values provided in the link below;
-       `https://www.aren.co.ke/payroll/taxrates.htmLinks to an external site.`
+- I used KRA, NHIF, and NSSF values provided in the links below;
+       `https://www.aren.co.ke/payroll/taxrates.htmLinks`
 
       `https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye`
 
@@ -76,6 +67,11 @@ Example, if the speed is 80, it should print: “Points: 2”. If the driver get
 - Once the page loads, a promt will appear that will promts the user to input one's salary. 
 - Once the speed is keyed in, click `OK` and it will return the result based on the salary that was keyed in. 
 - Refresh thepage if you want to check another individual's salary. s
+
+# Technology used
+ Javascript
+ Html
+ Css
 
 # Author
 The author of this project is:
