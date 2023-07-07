@@ -7,27 +7,39 @@
 1. A computer that has Chrome installed.
 2. Visual Studio Code installed or any text editor of your choice.
 3. Node version 10 or higher installed.
+4. A git hub account.
 
 ## Installation
 ### OPTION ONE
 1) Open the terminal on your computer (ctrl + shift + t).
-2) Clone the repository:
+
+2. Create a directory in your terminal named challenge-1.
+            
+            use - mkdir challenge-1
+
+3. Clone the repository in git hub:
             
             use - git clone git@github.com:TracyAntonia/phase-1-challenge-1.git
 
-3) Once it is done, change the directory to the repository folder:
+4. Once it is done, change the directory to the repository folder:
 
             use - cd challenge-1
 
-4) Open it using VS code `Visual Studio Code`.
+5. Open it using VS code `Visual Studio Code`.
 
             use  - code .
-5) Once you open your VS code, on your left-hand side on the explorer you will find the html, css and javascript. 
-6) And then open the page using the live server.
+6. Once you open your VS code, on your left-hand side on the explorer you will find the html, css and javascript. 
+
+7. And then open the page using the live server.
+
+8. The page should open in your Chrome browser.
 
 ### OPTION TWO
-1) You can fork this repository in your own account by clicking on `Fork` on this page.
-2) Start the process in `OPTION ONE` above.
+1. You can fork this repository in your own account by clicking on `Fork` on this page.
+2. Start the process in `OPTION ONE` above.
+          
+         NB: While cloning the repository, use your git hub link by clicking on code and copying the ssh key link.
+
 
 ## Student Grade Generator 
 This programs checks a student's marks and returns the grade. THe input should be between 0 - 100 marks.
@@ -59,9 +71,9 @@ Example, if the speed is 80, it should print: “Points: 2”. If the driver get
 # Net Salary Calculator
 - This program has a major task that is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. It calculates the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary. 
 - I used KRA, NHIF, and NSSF values provided in the links below;
-       `https://www.aren.co.ke/payroll/taxrates.htmLinks`
+    `https://www.aren.co.ke/payroll/taxrates.htmLinks`
 
-      `https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye`
+    `https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye`
 
   # How it works
 - Once the page loads, a promt will appear that will promts the user to input one's salary. 
