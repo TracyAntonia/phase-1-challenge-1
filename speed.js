@@ -1,27 +1,3 @@
-// let speed = prompt ('Enter speed:');
-
-// function inputSpeed(){
-//     // let speed = prompt ('Enter speed:');
-
-//     if(speed <= 70){
-//         alert("OK.")
-
-//     }else if(speed > 70){
-//         for(let i = 0; i < (speed % 70); i+) {
-        
-//         }
-//     }    
-   
-//     // for (let i =0; i < (speed % 70); i+5){
-//     //     i++
-//     //     alert(`${counter} Points`)
-//     // }alert(`${counter} Points`)
-//     // if (counter > 12){
-//     //     alert("License suspended!!!")
-//     // }
-// }   
-// inputSpeed()
-
 function inputSpeed(){
     let speed = prompt ('Enter speed')
 
